@@ -1,7 +1,7 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-flutter_application_path = "../module_flutter"
+flutter_application_path = "./module_flutter"
 load File.join (File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb'))
 
 

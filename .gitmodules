@@ -1,0 +1,3 @@
+[submodule "module_flutter"]
+	path = module_flutter
+	url = git@github.com:KelvinQQ/FlutterModule.git
