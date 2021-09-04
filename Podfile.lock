@@ -1,22 +1,28 @@
 PODS:
-  - Masonry (1.1.0)
-  - YYImage (1.0.4):
-    - YYImage/Core (= 1.0.4)
-  - YYImage/Core (1.0.4)
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+  - module_flutter (0.0.1):
+    - Flutter
 
 DEPENDENCIES:
-  - Masonry (= 1.1.0)
-  - YYImage (= 1.0.4)
+  - Flutter (from `../module_flutter/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `../module_flutter/.ios/Flutter/FlutterPluginRegistrant`)
+  - module_flutter (from `../module_flutter/.ios/Flutter`)
 
-SPEC REPOS:
-  trunk:
-    - Masonry
-    - YYImage
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../module_flutter/.ios/Flutter/engine"
+  FlutterPluginRegistrant:
+    :path: "../module_flutter/.ios/Flutter/FlutterPluginRegistrant"
+  module_flutter:
+    :path: "../module_flutter/.ios/Flutter"
 
 SPEC CHECKSUMS:
-  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  Flutter: ac41d61a47ae5bf8195a5598d2d63754888ec0d5
+  FlutterPluginRegistrant: 2afd5ea46d3a949472c9b7da6462d8fbf7d8b16e
+  module_flutter: 9be06766d3fbb62f68e7b514b752334a9e3f2636
 
-PODFILE CHECKSUM: 404b54b7c0f7d26e2c447b4b3510d1e59574f4f6
+PODFILE CHECKSUM: e014b947d0b3889b2e5b711129c925b299e8bfe9
 
 COCOAPODS: 1.9.3
