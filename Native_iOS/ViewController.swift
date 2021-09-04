@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         
         let button = UIButton.init(type: .system)
         button.frame = CGRect.init(x: 0, y: 100, width: 100, height: 50)
+        button.setTitle("跳转Flutter", for: .normal)
         button.backgroundColor = UIColor.red
         self.view.addSubview(button)
         button.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
